@@ -42,6 +42,12 @@ body {
     font-size: 25px;
     font-weight: bold;
     border: none;
+    transition: 0.4s all;
+}
+
+#btn:hover {
+    background-image: linear-gradient(rgb(248, 125, 125), rgb(161, 28, 4));
+    color: rgb(236, 255, 206);
 }
 
 .donate-text {
@@ -58,4 +64,449 @@ body {
 
     margin-left: 30%;
     margin-right: 30%;
+}
+
+
+
+
+.container {
+
+    margin-left: 23%;
+    margin-right: 20%;
+
+}
+
+.link-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: calc(200px - 30px);
+    height: calc(200px - 30px);
+    background: #ffd2d2;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+
+    padding: 10px 40px;
+    border-radius: 5px;
+
+    font-weight: 700;
+    color: #707070;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s all;
+    overflow: hidden;
+
+}
+
+.link-button:hover {
+    background: #ffc3c3;
+    border: 3px solid red;
+    color: red;
+
+}
+
+
+.container .box h2 {
+    color: #707070;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-amount {
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    font-weight: 800;
+    border-style: none;
+
+}
+
+.taka hr {
+    width: 50%;
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    background: #707070;
+    margin-bottom: 50px;
+    opacity: 70%;
+
+}
+
+.taka ::placeholder {
+    color: #707070;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.Donate-btn {
+
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    transition: 0.6s all;
+}
+
+.Donate-btn:hover {
+    background-image: linear-gradient(rgb(248, 125, 125), rgb(161, 28, 4));
+    color: rgb(236, 255, 206);
+}
+
+.plane h1 {
+
+    margin-top: 220px;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+.plane p {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.container-new {
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
+
+.box {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    width: calc(450px - 45px);
+    height: calc(450px - 45px);
+    background: #ffeeee;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.container-new .box img {
+    margin-left: 15px;
+    margin-top: 80px;
+}
+
+.container-new .box h2 {
+    color: black;
+    margin-top: 25px;
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 25px;
+    text-align: left;
+
+}
+
+.container-new .box p {
+
+    margin-top: 30px;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 25px;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.contribute h1 {
+    margin-top: 600px;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 200px;
+
+}
+
+.contribute {
+
+    background-image: url(images/donation1.jpg);
+
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 200px;
+    margin-bottom: 100px;
+
+}
+
+.contribute p {
+    color: #707070;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 600px;
+}
+
+.contribute-btn {
+    margin-left: 200px;
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    transition: 0.6s all;
+}
+
+.contribute-btn:hover {
+    background-image: linear-gradient(rgb(248, 125, 125), rgb(161, 28, 4));
+    color: rgb(236, 255, 206);
+}
+
+.contribute-two h1 {
+    margin-left: 850px;
+    margin-top: 200px;
+    text-align: right;
+    font-size: 50px;
+    margin-right: 200px
+}
+
+.contribute-two {
+
+    background-image: url(images/donation13.jpg);
+
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 200px;
+    margin-bottom: 100px;
+
+}
+
+.contribute-two p {
+    color: #707070;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 200px;
+    margin-left: 900px;
+}
+
+.contribute-two-btn {
+    margin-left: 900px;
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    transition: 0.6s all;
+}
+
+.contribute-two-btn:hover {
+    background-image: linear-gradient(rgb(248, 125, 125), rgb(161, 28, 4));
+    color: rgb(236, 255, 206);
+}
+
+.contribute-three h1 {
+    margin-top: 200px;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 200px
+}
+
+.contribute-three {
+
+    background-image: url(images/donation11.jpg);
+
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 200px;
+    margin-bottom: 100px;
+
+}
+
+.contribute-three p {
+    color: #707070;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 600px;
+}
+
+.contribute-btn-three {
+    margin-left: 200px;
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    transition: 0.6s all;
+}
+
+.contribute-three-btn:hover {
+    background-image: linear-gradient(rgb(248, 125, 125), rgb(161, 28, 4));
+    color: rgb(236, 255, 206);
+}
+
+.contribute-four h1 {
+    margin-left: 850px;
+    margin-top: 200px;
+    text-align: right;
+    font-size: 50px;
+    margin-right: 200px
+}
+
+.contribute-four {
+
+    background-image: url(images/donation10.jpg);
+
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 200px;
+    margin-bottom: 100px;
+
+}
+
+.contribute-four p {
+    color: #707070;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 200px;
+    margin-left: 900px;
+}
+
+.contribute-four-btn {
+
+    margin-left: 900px;
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    transition: 0.6s all;
+}
+
+.contribute-four-btn:hover {
+    background-image: linear-gradient(rgb(248, 125, 125), rgb(161, 28, 4));
+    color: rgb(236, 255, 206);
+}
+
+
+.updates h1 {
+    margin-top: 150px;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.updates p {
+    margin: 50px;
+    color: #707070;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.box-container {
+    margin-left: 550px;
+}
+
+.box-two {
+
+    width: calc(900px - 90px);
+    height: calc(200px - 20px);
+    background: #ffeeee;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+
+}
+
+.box-two {
+    padding-left: 30%;
+    padding-top: 7.5%;
+    border-radius: 5px;
+
+}
+
+.input {
+    min-height: 50px;
+    min-width: 150px;
+    padding: 0 1rem;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #c2b6b6;
+
+}
+
+.email-btn {
+    min-height: 50px;
+
+    padding: .10rem 1em;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.email-btn:hover {
+    background-color: green;
+}
+
+footer {
+    margin-top: 500px;
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(34, 31, 29);
+    color: rgb(220, 7, 7);
+    font-family: pacifico;
+    font-size: medium;
+    font-size: 30px;
 }
